@@ -1,0 +1,224 @@
+:root {
+    --mastercolor : #585858
+}
+
+body {
+    background-color: var(--mastercolor);
+}
+
+footer {
+    color: rgb(0, 126, 126);
+}
+header h1{
+    padding: 10px;
+    background-color: #1c1c1c;
+    /* width: 100%; */
+    border: 1px solid #8b8b8852;
+    color: beige;
+    text-align: center;
+    margin-top: -3px;
+    box-shadow: 3px 3px 3px 0px #323232, 3px 3px 3px 0px #323232;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    float: left;
+    opacity: 1;
+    background-color: #202020;
+    /* padding-left: 21%; */
+    box-sizing: border-box;
+    width: -webkit-fill-available;
+    /* box-shadow: inset -2px -2px 2px 0px; */
+}
+
+nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5px;
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+nav ul li {
+    padding: 5px;
+    margin-right: 20px;
+    /* margin-top: 4px; */
+    float: left;
+    border: 1px solid #f5f5dc;
+    background-color: #7e7e7e;
+    border-radius: 5px;
+    /* border-top-left-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
+    /* list-style: none; */
+    position: relative;
+    /* padding-top: 5px; */
+    box-shadow: inset -2px -2px 4px 0px black;
+}
+
+nav ul li a {
+    font-family: Lato Heavy,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    /* padding: 38px 22px 0 7px !important; */
+    position: relative;
+    display: inline-block;
+    /* min-width: 77px; */
+    text-align: center;
+    text-transform: initial;
+    /* text-decoration: none; */
+    color: #f5f5dc !important;
+}
+
+a:visited {
+    color: beige;
+}
+
+.WHP {
+    background-color: #f5f5dc;
+    width: fit-content;
+    padding: 8px;
+    /* border: 10px double gray; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(34 34 34);
+    position: relative;
+    border-radius: 0px 35px;
+    display: inline-block;
+    color: #1c1c1c;
+    box-shadow: inset -1px -1px 4px 1px #222222;
+}
+
+figure .flight{
+    /* transition-duration: 3s;
+    /* transition-delay: ; */
+    /* transition-property: all;
+    transition-timing-function: linear;  */
+    transition: 2S .2S ease;
+}
+
+figure .flight:hover  {
+    margin-left:90px ;
+    margin-top: 20px;
+}
+.lINK {
+    /* width: 50%; */
+    /* margin: auto; */
+    border: 1px solid beige;
+    background-color: #2a2a2a;
+    font-family: Lato Heavy,sans-serif;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: inset 0px 3px 3px 0px #939393, inset 0px -3px 3px 0px black;
+    border-radius: 5px;
+
+}
+
+section {
+    background-image: url(../back.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-position: 100px 0px; */
+    background-position: 60% 30%;
+    width: fit-content;
+    border: 1px solid #6e6e6e;
+    margin-bottom: 10px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}  
+
+aside {
+    display: block;
+    padding: 5px; 
+     margin: 0px 0px 0px 20px; 
+     border: 3px solid gray; 
+     width: fit-content;
+    height: 42px;
+    text-align: center;
+    background-color: #585858;
+    color: white;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 3px 3px 3px 1px #323232, 0px 0px 3px 0px #600101;
+}
+
+aside button {
+    display: block;
+    /* margin-left: 16px; */
+    background-color: #8b2e2e;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.but:focus {
+    color: red;
+}
+
+.tit::first-letter {
+    /* padding: 5px; */
+    /* background-color: beige; */
+    color: rgb(0, 126, 126);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.tit::selection {
+    background-color: beige;
+    color: #1c1c1c;
+}
+
+/* .tit::after { */
+    /* content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: aqua;
+} */
+
+
+
+article::first-line {
+    font-weight: bold;
+    color: #8b2e2e;
+}
+
+ 
+/*.WHP .lop{
+    position: absolute;
+    width: 10px;
+    right: -14px;
+    height: 100%;
+    top: 0;
+    background-color: aqua;
+} */
+/* 
+.WHP::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    right: -14px;
+    height: 100%;
+    top: 0;
+    background-color: aqua;
+} */
+
+/* .WHP::before {
+    content: "";
+    width: 0;
+    height: 0; */
+    /* background-color: #ffffff; */
+    /* position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent cyan;
+} */
