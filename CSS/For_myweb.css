@@ -104,6 +104,7 @@ figure .flight{
 figure .flight:hover  {
     margin-left:90px ;
     margin-top: 20px;
+    zoom: 1;
 }
 .lINK {
     /* width: 50%; */
